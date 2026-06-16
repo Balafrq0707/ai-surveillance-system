@@ -36,17 +36,16 @@ Visualization & Alerts
 ## Project Structure
 
 project/
-│
-├── main.py
-├── detection.py
-├── tracker.py
-├── state_manager.py
-├── surveillance.py
-├── visualization.py
-│
-├── videos/
-├── models/
-└── README.md
+-- main.py
+-- detection.py
+-- tracker.py
+-- state_manager.py
+-- surveillance.py
+--  visualization.py
+
+--videos/
+-- models/
+-- README.md
 
 ## Tracking Strategy
 
