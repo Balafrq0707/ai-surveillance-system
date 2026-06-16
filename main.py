@@ -14,10 +14,10 @@ from tracker import Tracker
 
 
 # Load YOLO model
-model = YOLO("yolov8n.pt")
+model = YOLO("models/yolov8n.pt")
 
 # Open video
-cap = cv2.VideoCapture("Videos/CCTV_lobby.mp4")
+cap = cv2.VideoCapture("videos/CCTV_lobby.mp4")
 
 if not cap.isOpened():
     print("Unable to open video file!")
